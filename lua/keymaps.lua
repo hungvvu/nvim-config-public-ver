@@ -4,4 +4,4 @@ vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.g.mapleader = " "
 
-	
+vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', {noremap = true})
