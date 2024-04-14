@@ -12,3 +12,10 @@ vim.api.nvim_set_keymap('n', '<leader>bn', ':bnext<CR>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<leader>bp', ':bprevious<CR>', {noremap = true}) 
 vim.api.nvim_set_keymap('n', '<leader>bd', ':bdelete<CR>', {noremap = true}) 
 vim.api.nvim_set_keymap('n', '<leader>bD', ':bdelete!<CR>', {noremap = true}) 
+
+
+-- Moving between panes
+vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
+vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
+vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
+vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
