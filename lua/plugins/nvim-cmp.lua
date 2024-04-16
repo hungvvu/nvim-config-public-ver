@@ -20,7 +20,7 @@ return {
                 ['<C-d>'] = cmp.mapping.scroll_docs(-4),     -- Scroll docs in completion menu
                 ['<C-f>'] = cmp.mapping.scroll_docs(4),      -- Scroll docs in completion menu
                 ['<C-y>'] = cmp.mapping.confirm({ select = true }), -- Confirm selection
-                -- ['<C-m>'] = cmp.mapping.complete(),      -- Manually trigger completion (not really necessary because nvim-cmp will auto display completion on its own)
+                ['<C-]>'] = cmp.mapping.complete(),      -- Manually trigger completion (not really necessary because nvim-cmp will auto display completion on its own)
             }),
             sources = cmp.config.sources({
                 { name = 'nvim_lsp' },  -- Source: Neovim LSP
