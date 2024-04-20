@@ -27,7 +27,7 @@ return {
           ['<C-p>'] = cmp.mapping.select_prev_item(),  -- Previouss completion menu
           ['<C-d>'] = cmp.mapping.scroll_docs(-4),     -- Scroll docs in completion menu
           ['<C-f>'] = cmp.mapping.scroll_docs(4),      -- Scroll docs in completion menu
-          ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Confirm selection
+          ['<Tab>'] = cmp.mapping.confirm({ select = true }), -- Confirm selection
           ['<C-]>'] = cmp.mapping.complete(),      -- Manually trigger completion (not really necessary because nvim-cmp will auto display completion on its own)
           ['<C-q>'] = cmp.mapping.abort(),    -- Close the completion menu
         }),
