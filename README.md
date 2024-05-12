@@ -21,6 +21,10 @@ For the Mason and Mason-LSP plugins to install Python LSP correctly (which is se
 
 `sudo apt-get install python3-venv`
 
+### LSP
+#### Eslint
+Provides linting for Javascript, Typescript, and some JS frameworks. Do `npm i -g vscode-langservers-extracted`.
+
 
 ## Install the configs
 ### Linux
