@@ -9,7 +9,7 @@ There are a couple of things we need to install along with Neovim to make the co
 Follow the steps in [neovim documentation](https://github.com/neovim/neovim/blob/master/INSTALL.md) to install Neovim. Note that these configurations will only works with Neovim 0.9.0 and above, and the version in package managers like `apt` might be quite dated, so it is recommended to install using the curl command in the installation guide.
 
 ### NerdFont
-Go to [nerdfont site]([url](https://www.nerdfonts.com/font-downloads)) and download a font of your choice on your machine. I use JetBrainsMono Regular.
+Go to [nerdfont site](https://www.nerdfonts.com/font-downloads) and download a font of your choice on your machine. I use JetBrainsMono Regular.
 
 ### Ripgrep
 For livegrep searching using Telescope. Helps with search for content across files.
@@ -25,7 +25,10 @@ For the Mason and Mason-LSP plugins to install Python LSP correctly (which is se
 #### Eslint
 Provides linting for Javascript, Typescript, and some JS frameworks. Do `npm i -g vscode-langservers-extracted`.
 
+### NPM and Nodejs
+There are a few LSP that requires npm to run (pyright, HTML, eslint), so you can go through the installation instruction on npm [documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) if you intend to use those LSPs.
 
-## Install the configs
+
+## Installing the configs
 ### Linux
 To install the configs, simply `cd ~/.config` and clone the repo. Next time you open Nvim, the configs and plugins should be installed automatically.
