@@ -30,7 +30,15 @@ return {
           ['<C-f>'] = cmp.mapping.scroll_docs(4),      -- Scroll docs in completion menu
           -- ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Confirm selection
           ['<C-]>'] = cmp.mapping.complete(),      -- Manually trigger completion (not really necessary because nvim-cmp will auto display completion on its own)
-          ['<C-q>'] = cmp.mapping.abort(),    -- Close the completion menu
+          -- ['<C-q>'] = cmp.mapping.abort(),    -- Close the completion menu
+          ['<C-t>'] = cmp.mapping {
+            -- toggle completion menu.
+            i = function ()
+              if cmp.visible()
+                then cmp.close()
+                else cmp.complete() end
+            end,
+          },
           ['<CR>'] = cmp.mapping(function(fallback)
             if cmp.visible() then
               if luasnip.expandable() then
