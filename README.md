@@ -1,5 +1,5 @@
 # Introduction
-**NOTE:** DO NOT make this repo public. There were some mentions to different GitHub issues in your issues while you work on this and making this public will means that the mentions will be visible to everyone on the other issue. See [this SO thread](https://stackoverflow.com/questions/43872026/remove-issue-reference-in-github). If you need to share this with others, create a fork of it instead. That way the issues in this repo won't show up in the fork.
+**NOTE:** DO NOT make this repo public. There were some mentions to different GitHub issues in your issues while you work on this and making this public will means that the mentions will be visible to everyone on the other issue. See [this SO thread](https://stackoverflow.com/questions/43872026/remove-issue-reference-in-github). Making those mentions visible will trash up the original issue's comment thread with useless information, which is not ideal. If you need to share this with others, create a fork of it instead. That way the issues in this repo won't show up in the fork.
 
 This is my personal Neovim setup. This README.md aims to document the main functionalities and settings of the setup for my own future reference, so I will try to make it as detailed as possible. However, there are things that might be accidentally left out.
 
